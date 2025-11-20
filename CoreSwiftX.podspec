@@ -1,10 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = 'CoreSwiftX'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Basic Swift and UIKit extensions and utilities'
   s.description      = <<-DESC
 CoreSwiftX provides a set of Swift and UIKit extensions and utilities 
 to simplify common tasks, improve code readability, and accelerate iOS development.
+It includes UIKit helpers, protocol-oriented extensions, RxSwift utilities, and
+compatibility wrappers for modern iOS SDKs.
   DESC
 
   s.homepage         = 'https://github.com/GeorgEvseyev/CoreSwiftX'
@@ -21,3 +23,4 @@ to simplify common tasks, improve code readability, and accelerate iOS developme
   s.dependency 'TinyConstraints'
   s.dependency 'RxSwift'
 end
+
