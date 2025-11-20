@@ -1,0 +1,6 @@
+use_frameworks!
+target 'core-swiftx_Tests' do
+  pod 'CoreSwiftX', :path => '../core-swiftx.podspec'
+  
+  
+end

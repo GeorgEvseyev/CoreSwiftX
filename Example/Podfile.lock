@@ -1,0 +1,27 @@
+PODS:
+  - CoreSwiftX (1.0.0):
+    - RxSwift
+    - TinyConstraints
+  - RxSwift (6.2.0)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - CoreSwiftX (from `../core-swiftx.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - RxSwift
+    - TinyConstraints
+
+EXTERNAL SOURCES:
+  CoreSwiftX:
+    :path: "../core-swiftx.podspec"
+
+SPEC CHECKSUMS:
+  CoreSwiftX: 7e0265c027c4880006b797d482ab2c6605b6a17c
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 4ac3d694eb057f74dae38ffbf6f92a41f55604cd
+
+COCOAPODS: 1.11.2
